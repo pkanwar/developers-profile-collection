@@ -1,0 +1,38 @@
+
+.headDev {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: #3F3D56;
+}
+
+.headDev .item {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#headItem1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: sans-serif;
+  width: 500px;
+}
+
+.exploreDevTitle {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#exploreItem1 {
+  font-size: 56px;
+  color : #3F3D56;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+} 

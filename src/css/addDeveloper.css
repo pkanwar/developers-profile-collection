@@ -1,0 +1,41 @@
+.addDev {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#addDevItem1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#addDevItem2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+}
+
+#devInfo {
+  color: #3F3D56;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+
+#addDevBtn {
+  background-color: #483d8b;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 36px;
+  height: 80px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 20px;
+  outline: none;
+}
+
+#addDevBtn :hover {
+  background-color: #8a2be2;
+}
